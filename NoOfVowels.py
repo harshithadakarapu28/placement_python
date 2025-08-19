@@ -5,6 +5,6 @@ def Vowels(n):
     for char in n:
         if char in vowel:
             count += 1
-    print(count)
+    return count
 n = input()
-Vowels(n)
+print(Vowels(n))
